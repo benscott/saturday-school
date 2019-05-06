@@ -17,7 +17,7 @@ module.exports = {
     },
     output: {
         filename: "[name].min.js",
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, 'docs')
     },
     module: {
         rules: [
@@ -58,7 +58,7 @@ module.exports = {
         })
     ],
     devServer: {
-        contentBase: path.join(__dirname, "../dist/"),
+        contentBase: path.join(__dirname, "../docs/"),
         port: 9000,
         hot: true,
         inline: true,
