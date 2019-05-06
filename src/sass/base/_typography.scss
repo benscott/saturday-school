@@ -1,0 +1,32 @@
+body{
+    font-family: "Raleway";
+    font-size: 1.2rem;
+    scroll-behavior: smooth;
+}
+
+header nav a{
+    font-size: 1rem;
+    text-shadow: 1px 1px 1px $color-dark-brown;
+    font-weight: 400;
+    &:hover{
+        text-shadow: 1px 1px 1px $color-spicy-pink;
+    }
+}
+
+h1{
+    text-transform: uppercase;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    padding: 0 25px 8px;
+    display: inline-block;
+    font-size: 2.0rem;
+    margin-bottom: 20px;
+}
+
+h2{
+    // text-transform: uppercase;
+    font-size: 1.6rem;
+    // margin-bottom: 20px;
+}
+
+

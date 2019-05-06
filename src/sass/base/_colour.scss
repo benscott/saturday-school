@@ -1,0 +1,20 @@
+body {
+    color: $color-white;
+    svg{
+        fill: $color-white;
+    }
+    a, a:hover, .btn, .btn:hover{
+        color: $color-white;
+    }
+    h1{
+       border-bottom-color: $color-white;
+    }
+}
+
+.text-dark{
+    color: $color-spicy-pink;
+    h1{
+        color: $color-purple;
+        border-bottom-color: $color-purple;
+    }
+}
