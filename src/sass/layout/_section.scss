@@ -1,6 +1,7 @@
 section, footer{
 
     position: relative;
+    z-index: 2;
 
     .wrapper{
         background-clip: 5px 5px;
@@ -106,7 +107,7 @@ section, footer{
     }     
 
     &.section-angle-bottom + section {
-        z-index: -1;
+        z-index: 1;
         padding-top: 100px;
     }
 

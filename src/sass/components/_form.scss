@@ -45,3 +45,11 @@ form{
 
 }
 
+
+
+.btn{
+    background-color: $color-purple;
+    text-transform: uppercase;    
+    border: 2px solid lighten($color-purple, 5%);
+}
+
